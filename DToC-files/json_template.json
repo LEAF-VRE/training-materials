@@ -1,0 +1,39 @@
+{
+    "editionTitle": "ADD EDITION TITLE HERE",
+    "editionSubtitle": "ADD EDITION SUBTITLE HERE",
+    "ignoreNamespace": true,
+    "documents": "//div[@type='WHATEVER TYPE YOU'RE DESCRIBING']",
+    "documentContent": "",
+    "documentTitle": "head",
+    "documentAuthor": "",
+    "indexDocument": "REPLACE WITH INDEX FILE URL -- IF NOT, DELETE THIS TEXT",
+    "documentImages": "",
+    "documentNotes": "",
+    "documentLinks": "",
+    "inputs": [
+        "REPLACE WITH URL OR URLs FOR FILES YOU ARE USING"
+    ],
+    "curation": {
+        "markup": [
+            {
+                "xpath": "//persName",
+                "label": "people"
+            },
+            {
+                "xpath": "//placeName",
+                "label": "places"
+            },
+            {
+                "xpath": "//objectName",
+                "label": "things"
+            },
+            {
+                "xpath": "//title",
+                "label": "works"
+            }
+        ],
+        "toc": [
+            "4a234af798927871188f603d6a25ed5367ebdce32593fe6970e496280443fca5"
+        ]
+    }
+}
